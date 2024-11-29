@@ -4,6 +4,7 @@
   --slate-light: #94a3b8;
   --text-light: #f1f5f9;
   --text-medium: #c9d1d9;
+  --slate-border: #3e4c59;
 }
 
 body {
@@ -33,6 +34,7 @@ header {
   position: sticky;
   top: 0;
   box-shadow: #111 5px 20px 25px 0.5;
+  border-bottom: var(--slate-border) 1px solid;
 }
 
 header h1 {
