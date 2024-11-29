@@ -83,4 +83,7 @@ footer {
     var(--slate-dark)
   );
   color: var(--slate-light);
+  border-top: var(--slate-border) 1px solid;
+  /* box shadow up direction */
+  box-shadow: #111 0px -5px 25px 0.5;
 }
