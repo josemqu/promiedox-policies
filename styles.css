@@ -3,6 +3,7 @@
   --slate-medium: #334155;
   --slate-light: #94a3b8;
   --text-light: #f1f5f9;
+  --text-medium: #c9d1d9;
 }
 
 body {
@@ -13,7 +14,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: var(--slate-dark);
-  color: var(--text-light);
+  color: var(--text-medium);
 }
 
 header {
