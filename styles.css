@@ -19,7 +19,16 @@ body {
 header {
   text-align: center;
   padding: 2rem;
-  background-color: var(--slate-medium);
+  /* background-color: var(--slate-medium); */
+  /* bg color vertical soft gradiente */
+  background: linear-gradient(
+    to bottom,
+    var(--slate-dark),
+    var(--slate-medium)
+  );
+  position: sticky;
+  top: 0;
+  box-shadow: #111 5px 20px 25px 0.5;
 }
 
 header h1 {
@@ -62,6 +71,10 @@ ul {
 footer {
   text-align: center;
   padding: 1rem;
-  background-color: var(--slate-medium);
+  background: linear-gradient(
+    to bottom,
+    var(--slate-medium),
+    var(--slate-dark)
+  );
   color: var(--slate-light);
 }
